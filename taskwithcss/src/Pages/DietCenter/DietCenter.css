@@ -1,0 +1,374 @@
+* {
+    border: none;
+}
+
+.parent {
+    width: 100%;
+    padding: 40px;
+}
+
+.topbar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.brandName {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+.menubar {
+    display: flex;
+    margin-top: 56px;
+    gap: 2rem;
+    /* space-x-4 */
+}
+
+.viewBar {
+    display: flex;
+    margin-top: 40px;
+    gap: 1rem;
+    /* space-x-5 */
+    background-color: rgb(243 244 246);
+    width: 256px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 8px;
+}
+
+.weekbutton {
+    background-color: rgb(22 163 74);
+    color: rgb(255 255 255);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 8px;
+}
+
+.daybutton {
+    background-color: rgb(255 255 255);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 8px;
+}
+
+.textfield {
+    display: flex;
+    background-color: rgb(243 244 246);
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    /* space-x-4 */
+    border-radius: 8px;
+}
+
+.ptag {
+    font-weight: bold;
+    /* font-weight: 500; */
+}
+
+.inputtag {
+    background-color: rgb(255 255 255);
+    height: 40px;
+    border-radius: 8px;
+    /* padding-left: 16px; */
+    /* padding-right: 16px; */
+}
+
+.secondbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.setcalories {
+    color: rgb(156 163 175);
+}
+
+.caloriesbutton {
+    display: flex;
+    justify-content: space-between;
+    width: 15rem;
+    align-items: center;
+    background-color: rgb(243 244 246);
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 8px;
+    /* space-x-28 */
+}
+
+.caloriesbutton p {
+    width: 100%;
+    text-align: start;
+}
+
+.days {
+    margin-top: 20px;
+    margin-left: 24px;
+}
+
+.days p {
+    color: rgb(17 24 39)
+}
+
+.days button {
+    display: flex;
+    width: 8.5rem;
+    align-items: center;
+    background-color: rgb(243 244 246);
+    border-radius: 8px;
+}
+
+.days button p {
+    width: 100%;
+    color: rgb(156 163 175);
+
+}
+
+.thirdbar {
+    display: flex;
+    margin-left: 8px;
+    margin-top: 20px;
+}
+
+.morningsnacks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 62.4px;
+    padding-right: 62.4px;
+    font-size: 30px;
+    line-height: 36px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.foodcard {
+    margin-left: 32px;
+}
+
+.fooditem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* shadow */
+    transition-duration: 300ms;
+    /* hover:shadow-xl */
+    cursor: pointer;
+    height: 224px;
+    width: 128px;
+    background-color: rgb(243 244 246);
+    border-radius: 12px;
+}
+
+.fooditem img {
+    height: 64px;
+    width: 64px;
+    border-radius: 9999px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.fooditem span {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    /* ?leading-5 */
+    font-weight: 600;
+    text-align: start;
+    margin-left: 12px;
+    margin-right: 12px;
+
+}
+
+.fooditem p {
+    width: 100%;
+    margin-left: 12px;
+    color: rgb(156 163 175);
+    margin-bottom: 5px
+}
+
+.notes {
+    display: flex;
+    justify-content: center;
+}
+
+.notes button {
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(255 255 255);
+    border-radius: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 83.333333%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+.addicon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: rgb(243 244 246);
+    padding: 20px;
+    margin-top: 16px;
+    /* hover:shadow-xl */
+    cursor: pointer;
+}
+
+.underline {
+    margin-top: 20px;
+    width: 100%;
+    border: solid 1px;
+    border-color: rgba(0, 0, 0, 0.1);
+    /* border-color: gray; */
+}
+
+.fourthbar {
+    display: flex;
+    margin-left: 8px;
+    margin-top: 20px;
+}
+
+.dislike {
+    margin-top: 20px;
+    margin-left: 24px;
+}
+
+.dislike button {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255 255 255);
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 12px;
+    margin-top: 8px;
+    width: 100%;
+    border-width: 1px;
+    border-color: rgb(243 244 246);
+    /* shadow-md */
+    box-shadow: 1px 1px 10px gray;
+
+}
+
+.dislikeicon {
+    border-radius: 9999px;
+    background-color: rgb(48 172 16);
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 7px;
+    padding-bottom: 2px;
+    margin-left: 8px;
+    color: rgb(255 255 255);
+}
+
+.dislikelist {
+    width: 100%;
+    margin-left: 8px;
+    font-weight: 500;
+}
+
+.dislikearrow {
+    margin-left: 48px;
+}
+
+.dislikefood {
+    margin-top: 12px;
+    margin-left: 24px;
+    width: 203.2px;
+}
+
+.dislikefood button {
+    display: inline;
+    align-items: center;
+    background-color: rgb(255 255 255);
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 12px;
+    margin-top: 8px;
+    border-width: 1px;
+    border-color: rgb(243 244 246);
+    /* shadow-md */
+    box-shadow: 1px 1px 10px gray;
+}
+
+.dislikefoodcard {
+    display: flex;
+    align-items: center;
+}
+
+.dislikefooditem {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    margin-left: 8px;
+}
+
+.dislikefooditem img {
+    height: 64px;
+    width: 64px;
+    border-radius: 9999px;
+    object-fit: cover;
+}
+
+.spicy {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    text-align: start;
+    margin-left: 12px;
+}
+
+.spicycal {
+    width: 100%;
+    color: rgb(156 163 175);
+    margin-left: 12px;
+    text-align: start;
+}
+
+.listunderline {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px;
+    border-color: rgba(0, 0, 0, 0.1);
+
+}
+
+.secondimage {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+
+.secondimage img {
+    height: 64px;
+    width: 64px;
+    border-radius: 9999px;
+    object-fit: cover;
+}
